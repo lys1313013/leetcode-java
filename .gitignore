@@ -100,3 +100,4 @@ coverage/
 .env.test
 .env.production
 
+/.idea/
