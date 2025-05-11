@@ -1,9 +1,3 @@
-个人leetcode解题记录
-
-
-
-
-
 
 # 链表
 
@@ -26,17 +20,54 @@
 | ------------------------------------------------------------ | ---- |
 | [94. 二叉树的中序遍历](https://leetcode.cn/problems/binary-tree-inorder-traversal/) |      |
 | [104. 二叉树的最大深度](https://leetcode.cn/problems/maximum-depth-of-binary-tree/) |      |
-|                                                              |      |
+| [226. 翻转二叉树](https://leetcode.cn/problems/invert-binary-tree/) |      |
+| [101. 对称二叉树](https://leetcode.cn/problems/symmetric-tree/) |      |
+| [543. 二叉树的直径](https://leetcode.cn/problems/diameter-of-binary-tree/) |      |
 
 
 
 
 
-动态规划
+# 动态规划
 
 | 题目                                                        | 备注                   |
 | ----------------------------------------------------------- | ---------------------- |
 | [70. 爬楼梯](https://leetcode.cn/problems/climbing-stairs/) | 注意前几个数不能进循环 |
 |                                                             |                        |
 |                                                             |                        |
+
+# 回溯
+
+| 题目                                                         | 备注 |
+| ------------------------------------------------------------ | ---- |
+| [46. 全排列](https://leetcode.cn/problems/permutations/)     |      |
+| [78. 子集](https://leetcode.cn/problems/subsets/)            |      |
+| [17. 电话号码的字母组合](https://leetcode.cn/problems/letter-combinations-of-a-phone-number/) |      |
+| [39. 组合总和](https://leetcode.cn/problems/combination-sum/) |      |
+
+模板
+
+```
+void backtracking(参数) {
+    if (终止条件) {
+        存放结果;
+        return;
+    }
+    for (选择 : 本层集合中的元素) {
+        处理节点;
+        backtracking(路径, 选择列表); // 递归
+        撤销处理; // 回溯
+    }
+}
+```
+
+
+
+# 位运算
+
+| 题目                                                         |      |
+| ------------------------------------------------------------ | ---- |
+| [136. 只出现一次的数字](https://leetcode.cn/problems/single-number/) |      |
+|                                                              |      |
+|                                                              |      |
 
