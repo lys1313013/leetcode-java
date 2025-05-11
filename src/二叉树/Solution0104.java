@@ -4,7 +4,7 @@ package 二叉树;
  * 104. 二叉树的最大深度
  * https://leetcode.cn/problems/maximum-depth-of-binary-tree/
  */
-class Solution {
+class Solution0104 {
     public int maxDepth(TreeNode root) {
         if (root == null) {
             return 0;
@@ -18,7 +18,7 @@ class Solution {
     public static void main(String[] args) {
         // 输入：root = [3,9,20,null,null,15,7]
         TreeNode treeNode = TreeNode.buildTree(new Integer[]{3, 9, 20, null, null, 15, 7});
-        Solution solution = new Solution();
+        Solution0104 solution = new Solution0104();
         System.out.println(solution.maxDepth(treeNode));
     }
 
