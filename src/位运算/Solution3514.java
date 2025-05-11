@@ -8,7 +8,7 @@ import java.util.Arrays;
  *
  * 待学习
  */
-class Solution {
+class Solution3514 {
     public int uniqueXorTriplets(int[] nums) {
         int n = nums.length;
         int mx = 0;
