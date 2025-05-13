@@ -43,8 +43,10 @@
 | 题目                                                         | 备注                      |
 | ------------------------------------------------------------ | ------------------------- |
 | [53. 最大子数组和](https://leetcode.cn/problems/maximum-subarray/) | 小于0就丢弃，sum重新置为0 |
-|                                                              |                           |
-|                                                              |                           |
+| [121. 买卖股票的最佳时机](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock/) |                           |
+| [55. 跳跃游戏](https://leetcode.cn/problems/jump-game/)      |                           |
+| [45. 跳跃游戏 II](https://leetcode.cn/problems/jump-game-ii/) |                           |
+| [763. 划分字母区间](https://leetcode.cn/problems/partition-labels/) |                           |
 
 
 
