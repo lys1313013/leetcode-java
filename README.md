@@ -58,6 +58,7 @@
 | [78. 子集](https://leetcode.cn/problems/subsets/)            |      |
 | [17. 电话号码的字母组合](https://leetcode.cn/problems/letter-combinations-of-a-phone-number/) |      |
 | [39. 组合总和](https://leetcode.cn/problems/combination-sum/) |      |
+| [200. 岛屿数量](https://leetcode.cn/problems/number-of-islands/) |      |
 
 模板
 
@@ -82,6 +83,14 @@ void backtracking(参数) {
 | 题目                                                         |      |
 | ------------------------------------------------------------ | ---- |
 | [136. 只出现一次的数字](https://leetcode.cn/problems/single-number/) |      |
+|                                                              |      |
+|                                                              |      |
+
+# 二维数组
+
+| 题目                                                         |      |
+| ------------------------------------------------------------ | ---- |
+| [994. 腐烂的橘子](https://leetcode.cn/problems/rotting-oranges/) |      |
 |                                                              |      |
 |                                                              |      |
 
