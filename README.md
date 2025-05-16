@@ -109,9 +109,9 @@ void backtracking(参数) {
 
 # 栈
 
-| 题目                                                         |      |
-| ------------------------------------------------------------ | ---- |
-| [20. 有效的括号](https://leetcode.cn/problems/valid-parentheses/) |      |
-|                                                              |      |
-|                                                              |      |
+| 题目                                                         | 备注                         |
+| ------------------------------------------------------------ | ---------------------------- |
+| [20. 有效的括号](https://leetcode.cn/problems/valid-parentheses/) | Deque、push()、pop()、peek() |
+| [155. 最小栈](https://leetcode.cn/problems/min-stack/)       | 使用辅助栈                   |
+| [739. 每日温度](https://leetcode.cn/problems/daily-temperatures/) | 注意pop完数据就被去除        |
 
