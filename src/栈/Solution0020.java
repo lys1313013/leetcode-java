@@ -10,28 +10,31 @@ import java.util.LinkedList;
 class Solution0020 {
     public boolean isValid(String s) {
         int n = s.length();
-        if (n % 2 == 1) {
-            return false;
-        }
-
-        HashMap<Character, Character> pairs = new HashMap() {{
-            put(')','(');
-            put(']','[');
-            put('}','{');
-        }};
-        Deque<Character> stack = new LinkedList<>();
+        HashMap<Character, Character> map = new HashMap<>();
+        map.put(')', '(');
+        map.put(']', '[');
+        map.put('}', '{');
+        Deque<Character> deque = new LinkedList<>();
         for (int i = 0; i < n; i++) {
             char ch = s.charAt(i);
-            if (pairs.containsKey(ch)) {
-                if (stack.isEmpty() || stack.peek() != pairs.get(ch)) {
+            if (map.containsKey(ch)) {
+                if (deque.isEmpty()) {
                     return false;
+                }
+                if (deque.peek() == map.get(ch)) {
+                    deque.pop();
                 } else {
-                    stack.pop();
+                    deque.push(ch);
                 }
             } else {
-                stack.push(ch);
+                deque.push(ch);
             }
         }
-        return stack.isEmpty();
+        return deque.isEmpty();
+    }
+
+    public static void main(String[] args) {
+        Solution0020 solution0020 = new Solution0020();
+        System.out.println(solution0020.isValid("(])"));
     }
 }
