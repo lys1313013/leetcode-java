@@ -72,6 +72,7 @@
 | [17. 电话号码的字母组合](https://leetcode.cn/problems/letter-combinations-of-a-phone-number/) |      |
 | [39. 组合总和](https://leetcode.cn/problems/combination-sum/) |      |
 | [200. 岛屿数量](https://leetcode.cn/problems/number-of-islands/) |      |
+| [22. 括号生成](https://leetcode.cn/problems/generate-parentheses/) |      |
 
 模板
 
