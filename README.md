@@ -115,3 +115,11 @@ void backtracking(参数) {
 | [155. 最小栈](https://leetcode.cn/problems/min-stack/)       | 使用辅助栈                   |
 | [739. 每日温度](https://leetcode.cn/problems/daily-temperatures/) | 注意pop完数据就被去除        |
 
+# 图
+
+| 题目                                                         | 备注               |
+| ------------------------------------------------------------ | ------------------ |
+| [207. 课程表](https://leetcode.cn/problems/course-schedule/) | 入度为零时可以使用 |
+| [210. 课程表 II](https://leetcode.cn/problems/course-schedule-ii/) |                    |
+|                                                              |                    |
+
