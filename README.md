@@ -124,3 +124,13 @@ void backtracking(参数) {
 | [210. 课程表 II](https://leetcode.cn/problems/course-schedule-ii/) |                    |
 |                                                              |                    |
 
+
+
+# 排序
+
+| 题目                                                         | 备注                       |
+| ------------------------------------------------------------ | -------------------------- |
+| [56. 合并区间](https://leetcode.cn/problems/merge-intervals/) | 调用排序后，题目就好做多了 |
+|                                                              |                            |
+|                                                              |                            |
+
