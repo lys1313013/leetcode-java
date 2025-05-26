@@ -24,21 +24,21 @@ class Solution3558 {
         }
 
         Map<Integer, Integer> map = new HashMap<>();
-        Deque<Integer> deque = new LinkedList<>();
+        Queue<Integer> deque = new LinkedList<>();
         for (int i = 0; i < inDegress.length; i++) {
             if (inDegress[i] == 0) {
-                deque.push(i);
+                deque.offer(i);
                 map.put(i, 0);
             }
         }
         int max = 0;
         while (!deque.isEmpty()) {
-            int index = deque.pop();
+            int index = deque.poll();
             for (int j = 0; j < affterList[index].size(); j++) {
                 int end = affterList[index].get(j);
                 inDegress[end]--;
                 if (inDegress[end] == 0) {
-                    deque.push(end);
+                    deque.offer(end);
                 }
                 int depth = map.get(index) + 1;
                 map.put(end, depth);
