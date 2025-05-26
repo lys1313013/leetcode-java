@@ -1,10 +1,12 @@
 # 动态规划
 
-| 题目                                                        | 备注                   |
-| ----------------------------------------------------------- | ---------------------- |
-| [70. 爬楼梯](https://leetcode.cn/problems/climbing-stairs/) | 注意前几个数不能进循环 |
-| [198. 打家劫舍](https://leetcode.cn/problems/house-robber/) |                        |
-|                                                             |                        |
+| 题目                                                         | 备注                   |
+| ------------------------------------------------------------ | ---------------------- |
+| [70. 爬楼梯](https://leetcode.cn/problems/climbing-stairs/)  | 注意前几个数不能进循环 |
+| [198. 打家劫舍](https://leetcode.cn/problems/house-robber/)  |                        |
+| [279. 完全平方数](https://leetcode.cn/problems/perfect-squares/) |                        |
+| [322. 零钱兑换](https://leetcode.cn/problems/coin-change/)   |                        |
+|                                                              |                        |
 
 
 
@@ -124,6 +126,7 @@ void backtracking(参数) {
 | [207. 课程表](https://leetcode.cn/problems/course-schedule/) | 入度为零时可以使用 |
 | [210. 课程表 II](https://leetcode.cn/problems/course-schedule-ii/) |                    |
 | [3558. 给边赋权值的方案数 I](https://leetcode.cn/problems/number-of-ways-to-assign-edge-weights-i/) |                    |
+| [1857. 有向图中最大颜色值](https://leetcode.cn/problems/largest-color-value-in-a-directed-graph/) | 还得练             |
 
 
 
