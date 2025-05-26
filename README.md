@@ -123,7 +123,7 @@ void backtracking(参数) {
 | ------------------------------------------------------------ | ------------------ |
 | [207. 课程表](https://leetcode.cn/problems/course-schedule/) | 入度为零时可以使用 |
 | [210. 课程表 II](https://leetcode.cn/problems/course-schedule-ii/) |                    |
-|                                                              |                    |
+| [3558. 给边赋权值的方案数 I](https://leetcode.cn/problems/number-of-ways-to-assign-edge-weights-i/) |                    |
 
 
 
