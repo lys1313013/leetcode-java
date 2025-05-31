@@ -4,7 +4,7 @@ package 前缀和;
  * 3355. 零数组变换 I
  * 前缀和
  */
-class Solution {
+class Solution3355 {
     public boolean isZeroArray(int[] nums, int[][] queries) {
         int[] deltaArray = new int[nums.length + 1];
         for (int[] query : queries) {
@@ -28,7 +28,7 @@ class Solution {
     }
 
     public static void main(String[] args) {
-        Solution solution = new Solution();
+        Solution3355 solution = new Solution3355();
         int[] nums = {4, 3, 2, 1};
         int[][] queries = {{1,3}, {0,2}};
         boolean result = solution.isZeroArray(nums, queries);
