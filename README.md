@@ -107,11 +107,11 @@ void backtracking(参数) {
 
 # 二维数组
 
-| 题目                                                         |      |
-| ------------------------------------------------------------ | ---- |
-| [994. 腐烂的橘子](https://leetcode.cn/problems/rotting-oranges/) |      |
-|                                                              |      |
-|                                                              |      |
+| 题目                                                         |                          |
+| ------------------------------------------------------------ | ------------------------ |
+| [994. 腐烂的橘子](https://leetcode.cn/problems/rotting-oranges/) |                          |
+| [73. 矩阵置零](https://leetcode.cn/problems/set-matrix-zeroes/) | 原地算法；O(1)空间复杂度 |
+| [54. 螺旋矩阵](https://leetcode.cn/problems/spiral-matrix/)  |                          |
 
 # 栈
 
@@ -140,4 +140,14 @@ void backtracking(参数) {
 | [56. 合并区间](https://leetcode.cn/problems/merge-intervals/) | 调用排序后，题目就好做多了 |
 |                                                              |                            |
 |                                                              |                            |
+
+
+
+# 数组
+
+| 题目                                                         | 备注            |
+| ------------------------------------------------------------ | --------------- |
+| [41. 缺失的第一个正数](https://leetcode.cn/problems/first-missing-positive/) | O(1) 空间复杂度 |
+|                                                              |                 |
+|                                                              |                 |
 
