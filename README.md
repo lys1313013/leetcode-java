@@ -112,6 +112,8 @@ void backtracking(参数) {
 | [994. 腐烂的橘子](https://leetcode.cn/problems/rotting-oranges/) |                          |
 | [73. 矩阵置零](https://leetcode.cn/problems/set-matrix-zeroes/) | 原地算法；O(1)空间复杂度 |
 | [54. 螺旋矩阵](https://leetcode.cn/problems/spiral-matrix/)  |                          |
+| [48. 旋转图像](https://leetcode.cn/problems/rotate-image/)   |                          |
+| [240. 搜索二维矩阵 II](https://leetcode.cn/problems/search-a-2d-matrix-ii/) |                          |
 
 # 栈
 
@@ -150,4 +152,12 @@ void backtracking(参数) {
 | [41. 缺失的第一个正数](https://leetcode.cn/problems/first-missing-positive/) | O(1) 空间复杂度 |
 |                                                              |                 |
 |                                                              |                 |
+
+# 字符串
+
+| 题目                                                         | 备注             |
+| ------------------------------------------------------------ | ---------------- |
+| [3403. 从盒子中找出字典序最大的字符串 I](https://leetcode.cn/problems/find-the-lexicographically-largest-string-from-the-box-i/) | 需要注意边界条件 |
+|                                                              |                  |
+|                                                              |                  |
 
