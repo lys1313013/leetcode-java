@@ -9,6 +9,7 @@
 | [139. 单词拆分](https://leetcode.cn/problems/word-break/)    |                        |
 | [300. 最长递增子序列](https://leetcode.cn/problems/longest-increasing-subsequence/) |                        |
 | [152. 乘积最大子数组](https://leetcode.cn/problems/maximum-product-subarray/) | 负负得正               |
+| [32. 最长有效括号](https://leetcode.cn/problems/longest-valid-parentheses/) |                        |
 
 
 
