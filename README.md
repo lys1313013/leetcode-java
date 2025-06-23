@@ -11,6 +11,7 @@
 | [152. 乘积最大子数组](https://leetcode.cn/problems/maximum-product-subarray/) | 负负得正               |
 | [32. 最长有效括号](https://leetcode.cn/problems/longest-valid-parentheses/) |                        |
 | [1143. 最长公共子序列](https://leetcode.cn/problems/longest-common-subsequence/) |                        |
+| [5. 最长回文子串](https://leetcode.cn/problems/longest-palindromic-substring/) |                        |
 
 
 
