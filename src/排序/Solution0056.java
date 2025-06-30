@@ -8,7 +8,7 @@ import java.util.List;
 /**
  * 56. 合并区间
  */
-class Solution {
+class Solution0056 {
     public int[][] merge(int[][] intervals) {
         // 根据第一个数字排序
         Arrays.sort(intervals, new Comparator<int[]>() {
