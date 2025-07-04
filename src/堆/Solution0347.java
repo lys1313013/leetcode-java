@@ -10,35 +10,25 @@ import java.util.PriorityQueue;
  */
 class Solution0347 {
     public int[] topKFrequent(int[] nums, int k) {
-        // 使用字典，统计每个元素出现的次数，元素为健，元素出现的次数为值
-        Map<Integer, Integer> map = new HashMap();
+        Map<Integer, Integer> cnt = new HashMap<Integer, Integer>();
         for (int num : nums) {
-            if (map.containsKey(num)) {
-                map.put(num, map.get(num) + 1);
-            } else {
-                map.put(num, 1);
-            }
+            cnt.put(num, cnt.getOrDefault(num, 0) + 1);
         }
-        // 遍历map,用最小堆保存频率最大的k个元素
-        PriorityQueue<Integer> pq = new PriorityQueue<>(new Comparator<Integer>() {
-            @Override
-            public int compare(Integer a, Integer b) {
-                return map.get(a) - map.get(b);
-            }
-        });
-        for (Integer key : map.keySet()) {
+
+        PriorityQueue<Integer> pq = new PriorityQueue<>(Comparator.comparingInt(cnt::get));
+        for (int key : cnt.keySet()) {
             if (pq.size() < k) {
                 pq.add(key);
-            } else if (map.get(key) > map.get(pq.peek())) {
+            } else if (cnt.get(key) > cnt.get(pq.peek())) {
                 pq.remove();
                 pq.add(key);
             }
         }
-        int[] res = new int[pq.size()];
+        int[] ans = new int[k];
         int i = 0;
         while (!pq.isEmpty()) {
-            res[i++] = pq.remove();
+            ans[i++] = pq.remove();
         }
-        return res;
+        return ans;
     }
 }
