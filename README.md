@@ -68,6 +68,7 @@
 | [55. 跳跃游戏](https://leetcode.cn/problems/jump-game/)      |                           |
 | [45. 跳跃游戏 II](https://leetcode.cn/problems/jump-game-ii/) |                           |
 | [763. 划分字母区间](https://leetcode.cn/problems/partition-labels/) |                           |
+| [1353. 最多可以参加的会议数目](https://leetcode.cn/problems/maximum-number-of-events-that-can-be-attended/) | 珍惜最小结束的会议        |
 
 
 
