@@ -5,7 +5,7 @@ import java.util.LinkedList;
 /**
  * 904. 水果成篮
  */
-class Solution0904 {
+class Solution0904_2 {
     public int totalFruit(int[] fruits) {
         int max = 0;
         int sum = 0;
@@ -40,7 +40,7 @@ class Solution0904 {
     }
 
     public static void main(String[] args) {
-        Solution0904 solution = new Solution0904();
+        Solution0904_2 solution = new Solution0904_2();
         int[] fruits = {1,0,1,4,1,4,1,2,3};
         System.out.println(solution.totalFruit(fruits));
     }
