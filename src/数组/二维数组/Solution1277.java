@@ -14,27 +14,10 @@ class Solution1277 {
                     continue;
                 }
                 sum++;
-                // 判断是否有其他的正方向
-                int ii = i - 1;
-                int jj = j - 1;
-                if (ii >= 0 && jj >= 0 && matrix[ii][jj] > 0) {
-                    int size = matrix[ii][jj];
-                    int upSize = 0;
-                    int leftSize = 0;
-                    for (int iii = i - 1; iii >= i - size; iii--) {
-                        if (matrix[iii][j] == 0) {
-                            break;
-                        }
-                        upSize++;
-                    }
-                    for (int jjj = j - 1; jjj >= j - size; jjj--) {
-                        if (matrix[i][jjj] == 0) {
-                            break;
-                        }
-                        leftSize++;
-                    }
-                    sum += Math.min(upSize, leftSize);
-                    matrix[i][j] = Math.min(upSize, leftSize) + 1;
+                if (i >= 1 && j >= 1 && matrix[i - 1][j - 1] > 0) {
+                    int min = Math.min(matrix[i - 1][j - 1], Math.min(matrix[i - 1][j], matrix[i][j - 1]));
+                    sum += min;
+                    matrix[i][j] = min + 1;
                 }
 
             }
